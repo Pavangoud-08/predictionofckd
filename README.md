@@ -1,11 +1,11 @@
-****💡 Prediction of Chronic Kidney Disease Using Machine Learning****
+****<h1>💡 Prediction of Chronic Kidney Disease Using Machine Learning</h1>****
 
 This project focuses on developing a Machine Learning-based Chronic Kidney Disease (CKD) prediction system capable of identifying early signs of CKD using clinical patient data. The system uses data preprocessing, feature engineering, and classification algorithms—primarily the Random Forest model—to classify whether a patient has CKD or not.
 
 Early detection of CKD helps prevent severe kidney damage and improves patient outcomes. This project aims to support healthcare professionals through an automated, accurate, and efficient CKD prediction tool.
 
-**📌 Project Features
-🔬 Machine Learning Techniques**
+**<h2>📌 Project Features
+🔬 Machine Learning Techniques</h2>**
 
 Random Forest (Primary Model)
 
@@ -17,7 +17,7 @@ XGBoost
 
 Hyperparameter tuning (Grid Search / Randomized Search)
 
-**🩺 Medical Features Used**
+**<h2>🩺 Medical Features Used</h2>**
 
 19+ clinical parameters, including:
 
@@ -41,8 +41,8 @@ Diabetes Mellitus, Hypertension
 
 Anemia, Appetite, Pedal Edema
 
-**🛠 Technologies Used**
-Programming & Frameworks
+**<h2>🛠 Technologies Used</h2>**
+<h3>Programming & Frameworks</h3>
 
 Python
 
@@ -50,7 +50,7 @@ Flask / Django
 
 Jupyter Notebook / Google Colab
 
-Libraries
+<h3>Libraries</h3>
 
 Scikit-learn
 
@@ -58,12 +58,14 @@ Pandas, NumPy
 
 Matplotlib, Seaborn
 
-**📊 System Architecture**
+**<h2>📊 System Architecture</h2>**
 
 <img width="693" height="382" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/f5339abb-d75d-45d7-990a-811752ae8373" />
 
 
-The workflow includes:
+
+
+<h3>The workflow includes:</h3>
 
 Data Collection
 
@@ -79,14 +81,14 @@ Prediction
 
 Deployment
 
-**🧪 Results**
+**<h2>🧪 Results</h2>**
 
 The CKD Prediction System was evaluated through multiple machine learning models, and the Random Forest Classifier produced the best results.
 
 <img width="910" height="512" alt="image" src="https://github.com/user-attachments/assets/8df083dc-b80c-4872-9497-67a37960d26e" />
 
 
-**✅ Overall Model Performance**
+**<h2>✅ Overall Model Performance</h2>**
 
 Accuracy: 93%
 
@@ -98,30 +100,30 @@ F1-Score: Balanced performance
 
 ROC-AUC: Strong class separability
 
-**📈 Accuracy Graph**
+<h3>**📈 Accuracy Graph**</h3>
 
 <img width="547" height="418" alt="image" src="https://github.com/user-attachments/assets/dd8ef8e1-0811-45dd-a999-353c5b8f0768" />
 
-📉 ROC Curves
+<h3>📉 ROC Curves</h3>
 
-ROC curves were generated for both:
+<h4>ROC curves were generated for both:</h4>
 
 <img width="586" height="441" alt="image" src="https://github.com/user-attachments/assets/2a006c5b-b6bc-44f8-929c-29cfc331602c" />
 
-Random Forest
+<h4>Random Forest</h4>
 
 <img width="591" height="436" alt="image" src="https://github.com/user-attachments/assets/469d2e7e-74fa-45dc-82a0-55238cae9583" />
 
 
-XGBoost
+<h4>XGBoost</h4>
 
 Both models achieved high AUC values, with Random Forest performing slightly better in distinguishing CKD vs Non-CKD classes.
 
-🔍 Predicted Output Example
+<h2>🔍 Predicted Output Example</h2>
 
 A sample prediction demonstrates the system correctly classifying a patient’s clinical parameters as “CKD Present” or “CKD Not Present.”
 
-**✔️ Key Observations**
+**<h2>✔️ Key Observations</h2>**
 
 Serum Creatinine, Hemoglobin, and Blood Urea showed strong influence on model prediction.
 
@@ -130,8 +132,6 @@ Feature selection helped improve the accuracy and reduce noise.
 The model handled missing values effectively after preprocessing.
 
 Performance remained stable even when evaluated with cross-validation.
-
-**🔬 Conclusion from Results**
 
 The system proves to be:
 
@@ -145,7 +145,7 @@ Clinically meaningful
 
 These results confirm that the ML-based CKD prediction system can be used as an early diagnosis support tool in healthcare environments.
 
-📂 Dataset Information
+**<h2>📂 Dataset Information</h2>**
 
 Records: 400
 
@@ -155,7 +155,7 @@ Contains clinical and categorical medical parameters
 
 Preprocessed using scaling, encoding, and missing value imputation
 
-🖥️ System Modules
+**<h2>🖥️ System Modules</h2>**
 
 Preprocessing Module
 
@@ -169,7 +169,7 @@ Results & Reports Module
 
 Deployment Module
 
-**🔮 Future Scope**
+**<h2>🔮 Future Scope</h2>**
 
 Deep Learning integration (ANN, CNN)
 
@@ -181,11 +181,11 @@ Expansion into multi-disease prediction
 
 Blockchain-based secure medical storage
 
-**📚 References**
+**<h2>📚 References</h2>**
 
 A complete list of research papers and IEEE sources used in the literature survey is included in the project report. These papers cover CKD prediction using ML, CNNs, ensemble learning, and explainable AI.
 
-**👨‍⚕️ Conclusion**
+**<h2>👨‍⚕️ Conclusion</h2>**
 
 This CKD Prediction System demonstrates the effectiveness of machine learning in healthcare diagnostics. By using clean clinical data, optimized ML models, and structured feature engineering, the system achieves high accuracy (93%) and serves as a reliable early-diagnosis support tool.
 
