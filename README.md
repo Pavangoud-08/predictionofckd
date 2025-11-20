@@ -108,14 +108,16 @@ ROC-AUC: Strong class separability
 
 <h4>ROC curves were generated for both:</h4>
 
+<h4>Random Forest</h4>
+
 <img width="586" height="441" alt="image" src="https://github.com/user-attachments/assets/2a006c5b-b6bc-44f8-929c-29cfc331602c" />
 
-<h4>Random Forest</h4>
+<h4>XGBoost</h4>
 
 <img width="591" height="436" alt="image" src="https://github.com/user-attachments/assets/469d2e7e-74fa-45dc-82a0-55238cae9583" />
 
 
-<h4>XGBoost</h4>
+
 
 Both models achieved high AUC values, with Random Forest performing slightly better in distinguishing CKD vs Non-CKD classes.
 
