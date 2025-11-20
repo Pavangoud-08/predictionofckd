@@ -100,7 +100,7 @@ F1-Score: Balanced performance
 
 ROC-AUC: Strong class separability
 
-<h3>**📈 Accuracy Graph**</h3>
+**<h3>📈 Accuracy Graph</h3>**
 
 <img width="547" height="418" alt="image" src="https://github.com/user-attachments/assets/dd8ef8e1-0811-45dd-a999-353c5b8f0768" />
 
